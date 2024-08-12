@@ -4,10 +4,6 @@
     
 @section('content')
 
-<body class="index-page">
-
-  
-
   <main class="main">
 
     <!-- Hero Section -->
@@ -196,7 +192,7 @@
     </section><!-- /About Section -->
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section">
+    {{-- <section id="clients" class="clients section">
 
       <div class="container" data-aos="fade-up">
 
@@ -230,7 +226,21 @@
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section> --}}
+    <div class="container">
+        <section class="customer-logos slider">
+           <div class="slide"><img src="assets/img/clients/Bosch_logo.png"></div>
+           <div class="slide"><img src="assets/img/clients/planar.png"></div>
+           <div class="slide"><img src="assets/img/clients/Hikvision_logo.svg.png"></div>
+           <div class="slide"><img src="assets/img/clients/lg-logo.png"></div>
+           <div class="slide"><img src="assets/img/clients/net_logo.png"></div>
+           <div class="slide"><img src="assets/img/clients/Sony_logo.svg.png"></div>
+           <div class="slide"><img src="assets/img/clients/TOA.svg"></div>
+           <div class="slide"><img src="assets/img/clients/Super_Micro_Logo.svg"></div>
+        </section>
+     </div>
+    
+    <!-- /Clients Section -->
 
     <!-- Onfocus Section -->
     <section id="onfocus" class="onfocus section dark-background">
@@ -1054,9 +1064,7 @@
       </div>
 
     </section><!-- /Recent Posts Section -->
-
   
-
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -1071,9 +1079,13 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  {{-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> --}}
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
 
-</body>
+
 @endsection

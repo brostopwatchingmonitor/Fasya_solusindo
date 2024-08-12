@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class="index-page">
     @include('layout.header')
     <div class="container">
     
