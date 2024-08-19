@@ -31,7 +31,7 @@
     <!-- Whatsapp Section End -->
 
     <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
+    {{-- <section id="featured-services" class="featured-services section">
 
       <div class="container">
 
@@ -73,7 +73,7 @@
 
       </div>
 
-    </section><!-- /Featured Services Section -->
+    </section><!-- /Featured Services Section --> --}}
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -243,7 +243,7 @@
     <!-- /Clients Section -->
 
     <!-- Onfocus Section -->
-    <section id="onfocus" class="onfocus section dark-background">
+    {{-- <section id="onfocus" class="onfocus section dark-background">
 
       <div class="container-fluid p-0" data-aos="fade-up">
 
@@ -270,7 +270,7 @@
 
       </div>
 
-    </section><!-- /Onfocus Section -->
+    </section><!-- /Onfocus Section --> --}}
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -629,7 +629,7 @@
     </section><!-- /Services Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
+    {{-- <section id="testimonials" class="testimonials section dark-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -754,7 +754,7 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Testimonials Section --> --}}
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">
